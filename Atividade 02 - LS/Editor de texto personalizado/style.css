@@ -1,0 +1,56 @@
+body,html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.results{
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 35px;
+    max-height: 70px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#principal{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:lavender
+}
+span{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#buttonArea{
+    margin-top: 5%;
+    width: 500px;
+    min-width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.options{
+    max-width:100px;
+    height: 60px;
+    border: 2px solid gainsboro;
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 8%;
+}
+.results#txt{
+    border: 2px solid gainsboro;
+    background: white;
+    overflow-y: scroll;
+}
+#length{
+    font-size: 15px;
+    position: absolute;
+    top: 1000%;
+    opacity: 0;
+}
