@@ -1,0 +1,166 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #9068be;
+	flex-direction: column;
+}
+
+* {
+	font-family: cursive;
+}
+#formArea {
+	background-color: #e1e8f0;
+	width: 600px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 8px;
+}
+input {
+	width: 200px;
+	height: 30px;
+	border-radius: 4px;
+}
+input::placeholder {
+	font-size: 15px;
+}
+input[git="git"]{
+	margin-top: 10px;
+	width: 408px;
+}
+#getimg,#ipt{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	visibility: hidden;
+}
+#ipt {
+	margin-top: 20px;
+	visibility: visible;
+	background-size: 100%100%;
+	cursor: pointer;
+}
+img {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+
+button {
+	width: 200px;
+	height: 40px;
+	margin-top: 15px;
+	background-color:rgb(187,187,187);
+	outline:none;
+	border-radius: 8px;
+	font-weight: 600;
+	color:#eeeeee;
+
+}
+
+#userarea {
+	position: absolute;
+	width: 500px;
+	height: 600px;
+	border:2px solid black;
+	background-color: #eeeeee;
+	visibility: hidden;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+}
+#usuarios {
+	overflow: auto;
+	height: 500px;
+	background: white;
+	margin-top: 30px;
+	border-radius: 8px;
+
+}
+#userarea > button {
+	align-self: center;
+	justify-self: center;
+	margin-bottom: 15px;
+}
+
+li {
+	
+}
+ul {
+	list-style: none;
+}
+span {
+	margin-left: -20px;
+}
+.name {
+	margin-left: 1px;
+	color: blue;
+	cursor: pointer;
+}
+.userdiv {
+	
+	width: 300px;
+	height: 80px;
+	
+	margin-top: 40px;
+	left: 120px;
+
+	display: flex;
+	justify-content: flex-start;
+}
+.pc {
+	height: 100%;
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px 0px 0px 8px;
+	background-color: #DDDDDD;
+}
+.min-img {
+	width: 70%;
+	height: 70%;
+	border-radius: 100%;
+}
+.text {
+	width: calc(100% - 70px);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #0074D9;
+	justify-content: center;
+	border-radius: 0px 8px 8px 0px;
+}
+.text > span {
+	margin-left: 10px;
+	font-size: 14px;
+}
+#imgcontainer {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+#imgcontainer > input {
+	margin-left: 15px;
+	margin-top: 19px;
+}
+.close {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: lightgreen;
+	position: relative;
+	left: -15px;
+	top: -5px;
+	cursor: pointer;
+}
+.close:hover {
+	background-color: red;
+}
